@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>대구/경북지회 강의</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+
+  <!-- 시간 잠금 화면 -->
+  <div id="expired-screen" class="hidden fixed inset-0 bg-gray-900 flex items-center justify-center z-50">
+    <div class="text-center px-6">
+      <div class="text-6xl mb-6">📚</div>
+      <h1 class="text-2xl font-bold mb-3">이번 강의가 종료되었습니다</h1>
+      <p class="text-gray-400">다음 강의에서 만나요!</p>
+    </div>
+  </div>
+
+  <!-- 비밀번호 화면 -->
+  <div id="login-screen" class="fixed inset-0 bg-gray-900 flex items-center justify-center z-40">
+    <div class="text-center px-6 w-full max-w-sm">
+      <div class="text-5xl mb-4">👔</div>
+      <h1 class="text-xl font-bold mb-1">대구/경북지회 4월 강의</h1>
+      <p id="login-title" class="text-gray-400 text-sm mb-6"></p>
+      <form id="login-form">
+        <input
+          id="password-input"
+          type="password"
+          placeholder="비밀번호를 입력하세요"
+          class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-center text-lg focus:outline-none focus:border-blue-500"
+          autocomplete="off"
+        >
+        <button
+          type="submit"
+          class="w-full mt-3 px-4 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-medium transition"
+        >입장하기</button>
+        <p id="login-error" class="text-red-400 text-sm mt-2 hidden">비밀번호가 틀렸습니다</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- 메인 뷰어 -->
+  <div id="viewer" class="hidden">
+    <!-- 헤더 -->
+    <header class="sticky top-0 bg-gray-900 bg-opacity-95 backdrop-blur border-b border-gray-800 px-4 py-3 z-30">
+      <h1 id="lecture-title" class="text-lg font-bold text-center"></h1>
+      <p id="lecture-date" class="text-xs text-gray-400 text-center"></p>
+    </header>
+
+    <!-- Before/After 탭 -->
+    <div class="flex border-b border-gray-800">
+      <button id="tab-before" class="flex-1 py-2 text-sm font-medium text-center tab-active" data-tab="before">
+        전 Before
+      </button>
+      <button id="tab-after" class="flex-1 py-2 text-sm font-medium text-center tab-inactive" data-tab="after">
+        후 After
+      </button>
+    </div>
+
+    <!-- 이미지 영역 -->
+    <div id="image-container" class="relative overflow-hidden bg-black" style="min-height: 50vh;">
+      <img id="slide-image" class="w-full h-auto object-contain" src="" alt="강의 사진">
+      <div id="no-image" class="hidden absolute inset-0 flex items-center justify-center text-gray-500">
+        <p>사진을 준비중입니다</p>
+      </div>
+    </div>
+
+    <!-- 라벨 -->
+    <div class="px-4 py-3 border-b border-gray-800">
+      <p id="slide-label" class="text-center text-base font-medium"></p>
+    </div>
+
+    <!-- 네비게이션 -->
+    <div class="flex items-center justify-between px-6 py-4">
+      <button id="btn-prev" class="w-12 h-12 flex items-center justify-center bg-gray-800 rounded-full text-xl hover:bg-gray-700 transition">
+        ◀
+      </button>
+      <span id="slide-counter" class="text-gray-400 text-sm"></span>
+      <button id="btn-next" class="w-12 h-12 flex items-center justify-center bg-gray-800 rounded-full text-xl hover:bg-gray-700 transition">
+        ▶
+      </button>
+    </div>
+
+    <!-- 인디케이터 -->
+    <div id="indicators" class="flex justify-center gap-2 pb-6 px-4 flex-wrap"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

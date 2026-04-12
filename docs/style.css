@@ -1,0 +1,82 @@
+/* 세탁의달인 강의 뷰어 */
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+body {
+  overscroll-behavior: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 탭 스타일 */
+.tab-active {
+  color: #60a5fa;
+  border-bottom: 2px solid #60a5fa;
+  background: rgba(96, 165, 250, 0.05);
+}
+
+.tab-inactive {
+  color: #6b7280;
+  border-bottom: 2px solid transparent;
+}
+
+/* 이미지 영역 */
+#slide-image {
+  max-height: 60vh;
+  margin: 0 auto;
+  display: block;
+  transition: opacity 0.2s ease;
+}
+
+#slide-image.loading {
+  opacity: 0.3;
+}
+
+/* 인디케이터 */
+.indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #374151;
+  transition: all 0.2s ease;
+}
+
+.indicator.active {
+  background: #60a5fa;
+  width: 24px;
+  border-radius: 4px;
+}
+
+/* 버튼 활성화 효과 */
+#btn-prev:active,
+#btn-next:active {
+  transform: scale(0.9);
+}
+
+/* 비밀번호 입력 포커스 */
+#password-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+/* 스와이프 피드백 */
+#image-container {
+  touch-action: pan-y;
+  user-select: none;
+}
+
+/* 카카오톡 인앱 브라우저 대응 */
+@supports (-webkit-touch-callout: none) {
+  body {
+    min-height: -webkit-fill-available;
+  }
+}
+
+/* 세로 스크롤 최소화 */
+@media (max-height: 700px) {
+  #slide-image {
+    max-height: 45vh;
+  }
+}
