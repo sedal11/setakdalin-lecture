@@ -227,10 +227,8 @@
     $('viewer').classList.remove('hidden');
 
     // 헤더 설정
-    $('lecture-title').textContent = lectureData.title || '세탁의달인 강의';
-    const dateParts = lectureData.date.split('-');
-    $('lecture-date').textContent =
-      `${dateParts[0]}년 ${parseInt(dateParts[1])}월 강의`;
+    $('lecture-title').textContent = lectureData.title || '강의';
+    $('lecture-date').textContent = lectureData.subtitle || '';
 
     // 탭 이벤트
     $('tab-before').addEventListener('click', () => {
