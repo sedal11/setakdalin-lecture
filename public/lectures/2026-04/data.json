@@ -1,0 +1,112 @@
+{
+  "title": "얼룩별 제거순서",
+  "date": "2026-04-12",
+  "password": "0412",
+  "slides": [
+    {
+      "label": "로에베 데님 청바지 / 커피얼룩",
+      "before": "images/청바지커피전.jpg",
+      "after": "images/청바지커피후.jpg"
+    },
+    {
+      "label": "실크블라우스 / 커피얼룩",
+      "before": "images/01-before.jpg",
+      "after": "images/01-after.jpg"
+    },
+    {
+      "label": "면셔츠(백색) / 혈액얼룩",
+      "before": "images/02-before.jpg",
+      "after": "images/02-after.jpg"
+    },
+    {
+      "label": "폴리에스터 재킷 / 기름얼룩",
+      "before": "images/03-before.jpg",
+      "after": "images/03-after.jpg"
+    },
+    {
+      "label": "린넨 테이블보 / 레드와인",
+      "before": "images/04-before.jpg",
+      "after": "images/04-after.jpg"
+    },
+    {
+      "label": "면셔츠 / 볼펜잉크",
+      "before": "images/05-before.jpg",
+      "after": "images/05-after.jpg"
+    },
+    {
+      "label": "와이셔츠 / 땀·황변",
+      "before": "images/06-before.jpg",
+      "after": "images/06-after.jpg"
+    },
+    {
+      "label": "울코트 / 파운데이션",
+      "before": "images/07-before.jpg",
+      "after": "images/07-after.jpg"
+    },
+    {
+      "label": "청바지 / 풀·흙 얼룩",
+      "before": "images/08-before.jpg",
+      "after": "images/08-after.jpg"
+    },
+    {
+      "label": "면티셔츠 / 초콜릿",
+      "before": "images/09-before.jpg",
+      "after": "images/09-after.jpg"
+    },
+    {
+      "label": "면원피스 / 카레·심황",
+      "before": "images/10-before.jpg",
+      "after": "images/10-after.jpg"
+    },
+    {
+      "label": "면블라우스 / 김치국물",
+      "before": "images/11-before.jpg",
+      "after": "images/11-after.jpg"
+    },
+    {
+      "label": "폴리 남방 / 간장소스",
+      "before": "images/12-before.jpg",
+      "after": "images/12-after.jpg"
+    },
+    {
+      "label": "나일론 자켓 / 구토물",
+      "before": "images/13-before.jpg",
+      "after": "images/13-after.jpg"
+    },
+    {
+      "label": "면셔츠 / 녹·철분",
+      "before": "images/14-before.jpg",
+      "after": "images/14-after.jpg"
+    },
+    {
+      "label": "레이온 원피스 / 곰팡이",
+      "before": "images/15-before.jpg",
+      "after": "images/15-after.jpg"
+    },
+    {
+      "label": "면바지 / 페인트",
+      "before": "images/16-before.jpg",
+      "after": "images/16-after.jpg"
+    },
+    {
+      "label": "울니트 / 양초왁스",
+      "before": "images/17-before.jpg",
+      "after": "images/17-after.jpg"
+    },
+    {
+      "label": "면커튼 / 담배·니코틴 황변",
+      "before": "images/18-before.jpg",
+      "after": "images/18-after.jpg"
+    },
+    {
+      "label": "면티셔츠 / 염색이염(빨간색)",
+      "before": "images/19-before.jpg",
+      "after": "images/19-after.jpg"
+    },
+    {
+      "label": "폴리에스터 교복 / 유성매직",
+      "before": "images/20-before.jpg",
+      "after": "images/20-after.jpg"
+    }
+  ]
+}
