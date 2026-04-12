@@ -6,13 +6,13 @@
   "slides": [
     {
       "label": "에르메스 실크블라우스 / 커피얼룩",
-      "before": "images/실크블라우스커피전.png",
-      "after": "images/실크블라우스커피후.png"
+      "before": "images/실크블라우스커피전.jpg",
+      "after": "images/실크블라우스커피후.jpg"
     },
     {
       "label": "스웨이드 무스탕 / 커피얼룩",
-      "before": "images/스웨이드커피전.png",
-      "after": "images/스웨이드커피후.png"
+      "before": "images/스웨이드커피전.jpg",
+      "after": "images/스웨이드커피후.jpg"
     },
     {
       "label": "로에베 데님 청바지 / 커피얼룩",
@@ -21,23 +21,23 @@
     },
     {
       "label": "디올티어즈 면셔츠 / 혈액얼룩",
-      "before": "images/면셔츠혈액전.png",
-      "after": "images/면셔츠혈액후.png"
+      "before": "images/면셔츠혈액전.jpg",
+      "after": "images/면셔츠혈액후.jpg"
     },
     {
       "label": "디올 맨투맨 / 황변",
-      "before": "images/맨투맨황변전.png",
-      "after": "images/맨투맨황변후.png"
+      "before": "images/맨투맨황변전.jpg",
+      "after": "images/맨투맨황변후.jpg"
     },
     {
       "label": "스웨이드 스니커즈 / 와인얼룩",
-      "before": "images/스웨이드와인전.png",
+      "before": "images/스웨이드와인전.jpg",
       "after": "images/스웨이드와인후.jpg"
     },
     {
       "label": "나이키 패딩(백색) / 볼펜잉크",
-      "before": "images/패딩볼펜잉크전.png",
-      "after": "images/패딩볼펜잉크후.png"
+      "before": "images/패딩볼펜잉크전.jpg",
+      "after": "images/패딩볼펜잉크후.jpg"
     },
     {
       "label": "패딩 / 염색약얼룩",
@@ -51,8 +51,8 @@
     },
     {
       "label": "구찌 울코트(백색) / 김치찌개",
-      "before": "images/울코트김치찌개전.png",
-      "after": "images/울코트김치찌개후.png"
+      "before": "images/울코트김치찌개전.jpg",
+      "after": "images/울코트김치찌개후.jpg"
     },
     {
       "label": "토즈 스웨이드 로퍼 / 페인트",
