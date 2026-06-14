@@ -1,0 +1,44 @@
+{
+  "title": "명품 신발 세탁",
+  "subtitle": "대구/경북지회 6월 강의",
+  "date": "2026-06-14",
+  "password": "0614",
+  "slides": [
+    {
+      "label": "에르메스 가죽 스니커즈 / 전체 오염",
+      "before": "images/01.jpg"
+    },
+    {
+      "label": "에르메스 바운싱 스니커즈 / 스웨이드 디테일",
+      "before": "images/02.jpg"
+    },
+    {
+      "label": "에르메스 바운싱 스니커즈 / 세탁 완료",
+      "before": "images/03.jpg"
+    },
+    {
+      "label": "로로피아나 Summer Walk / 스웨이드 오염",
+      "before": "images/04.jpg"
+    },
+    {
+      "label": "UGG 슬리퍼 / 스웨이드+양모",
+      "before": "images/05.jpg"
+    },
+    {
+      "label": "UGG 슬리퍼 / 로고 양모 모델",
+      "before": "images/06.jpg"
+    },
+    {
+      "label": "뉴발란스 993 / 스웨이드+메시 오염",
+      "before": "images/07.jpg"
+    },
+    {
+      "label": "아디다스 가젤 / 스웨이드 오염",
+      "before": "images/08.jpg"
+    },
+    {
+      "label": "명품 자켓 / 메탈 장식 보호 세탁",
+      "before": "images/09.jpg"
+    }
+  ]
+}
